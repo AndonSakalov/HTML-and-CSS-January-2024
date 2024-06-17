@@ -1,0 +1,28 @@
+body{
+    font-family: Helvetica, sans-serif;
+    padding: 2em;
+    padding-top: 0.5em;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+main{
+    width: 1000px;
+}
+
+main,aside{
+    display: inline-block;
+}
+
+img{
+    width: 500px;
+}
+
+header{
+    margin-bottom: 2em;
+}
+
+aside{
+    float: right;
+    width: 300px;
+}

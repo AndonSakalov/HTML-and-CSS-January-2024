@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+}
+
+div{
+    display: flex;
+    border: 2px solid black;
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 2em;
+    background-color: #85DCFF;
+    height: auto;
+}
+
+section.content h1{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+section.content p{
+    padding-bottom: 2em;
+    font-size: 13.9px;
+    line-height: 1.3em;
+}
+
+section.content{
+    max-width: 40em;
+    margin-top: 14.28em;
+    padding-left: 2em;
+}
+
+section.buttons{
+    display: flex;
+    gap:1em;
+    margin-left:2em;
+    margin-bottom: 12em;
+}
+
+a.button1, .button2{
+    text-decoration: none;
+    color: black;
+    padding:0.7em;
+    border-radius: 5px;
+    padding-left:1.5em;
+    padding-right:1.5em;
+}
+
+.button1{
+    background-color: #42AA59;
+    border:1px solid black;
+}
+
+.button1:hover{
+     background-color: black;
+     color: white;
+}
+
+.button2{
+    background-color: white;
+}
+
+img{
+    max-width: 370px;
+    box-shadow: 0 0 0.8em 0 rgba(0,0,0,1.5);
+}
+
+.media{
+    padding:5.66em 2em 1.8em 7em;
+    margin-bottom: 2em;
+}
+
+.content-buttons{
+    max-width: 40em;
+}

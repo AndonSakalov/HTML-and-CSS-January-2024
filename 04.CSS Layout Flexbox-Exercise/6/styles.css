@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    padding: 2em;
+    background-color:white;
+    justify-content: center;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1.5em 1em 1.5em 1em;
+}
+
+.gallery li{
+    list-style: none outside;
+    border: 8px solid black;
+    flex: 0 0 200px;
+    display: flex;
+    align-items: center;
+    box-shadow: 
+    0 0 2em 0 rgba(0,0,0,0.3), 
+    0 0 0.3em 0 rgba(0,0,0,0.5) inset;
+}
+
+.gallery{
+    max-width: 50em;
+    padding-left: 4em;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap:2em;
+}

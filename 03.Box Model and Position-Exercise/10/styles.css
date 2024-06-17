@@ -1,0 +1,96 @@
+*{
+ padding: 0;
+ margin: 0;   
+}
+
+h3{
+    font-family: Georgia, serif;
+    font-size: 1em 1.2em;
+}
+
+.viewport{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 0.4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1em 0.5em rgb(0,0,0,0.4);
+    border: 1px solid #CCC;
+}
+
+div.description-window h3{
+   top: 8%;
+   position: absolute;
+}
+
+div.description-window p{
+    margin: 1em 0em 1em 0em;
+    position: relative;
+    
+}
+
+div.description-window{
+    background-color: rgb(238, 238, 238);
+    padding: 2em;
+    position: relative;
+}
+
+button{
+    background-color: rgb(0, 153, 0);
+    border-radius: 0.4em;
+    padding: 0.3em 1em 0.3em 1em;
+    position: absolute;
+    right: 2em;
+    bottom: 1em;
+}
+
+.card svg{
+    display: block;
+    width: 2em;
+    position: absolute;
+    bottom: 11em;
+    right: 1em;
+    fill: bisque;
+    cursor: pointer;
+}
+
+.card svg:hover{
+    fill: slateblue;
+}
+
+.card::before{
+    display: block;
+    content: '';
+    position: absolute;
+    inset: 0;
+    box-shadow: 0 0 5em 0.5em rgb(0, 0, 0, 0.2) inset;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.card:hover::before{
+    opacity: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.viewport:nth-child(1){
+    background:  rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,101,1) 46%, rgba(0,212,255,1) 94%);;
+}
+
+.viewport:nth-child(2){
+    background: rgb(237,43,119);
+    background: linear-gradient(90deg, rgba(237,43,119,1) 0%, rgba(255,0,164,1) 8%, rgba(240,94,3,1) 100%);
+    position: relative;
+}

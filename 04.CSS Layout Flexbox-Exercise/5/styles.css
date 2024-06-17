@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+    padding-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    margin: 1em 2em 1em 2em;
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    gap:65vw;
+    padding: 2em 1em 2em 1em;
+}
+
+h1{
+  display: flex;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  width: 150px;
+}
+
+nav{
+    display: flex;
+    align-self:flex-end;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    padding: 0.5em;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5em 2em 0.5em 2em;
+    font-family: Helvetica, sans-serif;
+}
+
+h2{
+    padding-bottom: 1em;
+}
+
+p{
+    padding-bottom: 1em;
+}

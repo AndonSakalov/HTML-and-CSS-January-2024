@@ -1,0 +1,41 @@
+body{
+    padding: 4em;
+    font-family: Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+nav a{
+    display: inline;
+    color: rgb(41, 160, 41);
+    margin: 0;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    background-color: green;
+    color: #fff;
+}
+
+p.site-title{
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+header nav,
+p.site-title{
+    display: inline-block;
+}
+
+header nav{
+    margin-left: 100px;
+}
+
+header{
+    padding-bottom: 0px;
+    border-bottom: 2px solid #000;
+}
+

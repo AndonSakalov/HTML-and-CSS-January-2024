@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1920px;
+}
+
+html{
+    font-size: 18px;
+    font-family: Karla, sans-serif;
+}
+
+section.section-header{
+    display: block;
+    background-image: url(images/poster.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sticky-header{
+    display: flex;
+    gap: 45em;
+    padding: 1em;
+    margin-bottom: 12em;
+}
+
+.sticky-header a{
+   display: block;
+   width: 120px;
+   height: 80px;
+}
+
+.sticky-header img{
+    width: 100%;
+    height: auto;
+}
+
+section.section-header nav ul{
+    display: flex;
+    padding-left: 10em;
+}
+
+section.section-header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+section.section-header nav li{
+    list-style: none;
+    padding-left: 1em;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header h1{
+    font-family: Cormorant, serif;
+    font-size: 90px;
+    font-weight: bold;
+    padding-bottom: 1.7em;
+    color: white;
+}
+
+header p{
+    color: white;
+    padding-bottom: 12em;
+    max-width: 32em;
+    text-align: center;
+}
+
+section.customer-testimonial{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div-customer-testimonial p{
+   padding-bottom: 2.41em;
+}
+
+p.div-customer-testimonial{
+    padding-top: 1.4em;
+    padding-bottom: 3em;
+    color: #352B2A;
+}
+
+.div-customer-testimonial-citate {
+    font-family: Cormorant, serif;
+    font-size: 60px;
+    line-height: 50px;
+    max-width: 15.3em;
+    color: #352B2A;
+}
+
+section.twenty-four-support{
+    background-color: #E14747;
+}
+
+.div-twenty-four-support{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.div-twenty-four-support p{
+    color: white;
+}
+
+p.text-one{
+    text-align: center;
+    padding-top:4.28em;
+    margin-bottom: 2.38em
+}
+
+p.text-two{
+    text-align: center;
+    margin-bottom: 4.28em
+}
+
+.div-understand-your-mind {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:3em;
+}
+
+.div-understand-your-mind img{
+    max-width: 630px;
+    height: auto;
+    align-self: center;
+}
+
+.div-understand-your-mind h2{
+    color: #352B2A;
+    text-align: center;
+    font-size: 70px;
+    font-family: Cormorant, serif;
+}
+
+.div-understand-your-mind p{
+    color: #352B2A;
+    text-align: center;
+    padding-left: 27em;
+    padding-right: 27em;
+}
+
+a.button1{
+   border: 1px solid black;
+   align-self: center;
+   margin-right: 18em;
+   text-decoration: none;
+   color: black;
+   background-color: white;
+   border-radius: 4px;
+   padding: 0.3em 0.7em 0.3em 0.7em;
+}
+
+a.button2{
+    border: 1px solid black;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.3em 0.7em 0.3em 0.7em;
+    margin-bottom: 5em;
+    border-radius: 4px;
+}
+
+section.find-local-guide{
+    background-color: #E14747;
+}
+
+.div-find-local-guide{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-find-local-guide h2{
+    font-family: Cormorant, serif;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+.div-find-local-guide p{
+    text-align: center;
+    padding-bottom: 5em;
+    color: white;
+}
+
+.div-find-local-guide a{
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    background-color: #FAD87A;
+    padding: 0.5em 0.7em 0.5em 0.7em;
+    margin-bottom: 5em;
+    border-radius: 2em;
+}
+
+.footer{
+    background-color: #352B2A;
+}
+
+.div-footer{
+    display: flex;
+    padding-left: 7em;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.div-footer img{
+    width: 100%;
+    height: auto;
+}
+
+.div-footer a{
+    padding-top: 3em;
+    display: block;
+    width: 120px;
+    height: 80px;
+    padding-bottom: 3em;
+ }
+
+ .p1 {
+    padding-top: 3em;
+    color: white;
+ }
+
+ .p2{
+    padding-top: 1em;
+    color: #76543E;
+    padding-bottom: 3.5em;
+ }
